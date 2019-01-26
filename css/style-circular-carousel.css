@@ -1,0 +1,42 @@
+.carousel {
+	/*left: 50%;
+	position: absolute;
+	width: 80%;
+	margin-left: -500px;*/
+	overflow: hidden;
+	height: 550px;
+	top: -100px;
+	padding:0;
+}
+
+.carousel .item {
+	width: 400px;
+	background-color:#cccccc;
+	background-size: 100%;
+	vertical-align: middle;
+	line-height: 250px;
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+.controls {
+	position: absolute;
+	top: 520px;
+	left: 42.5%;
+	width: 260px;
+	/*margin-left: -75px;
+	text-align:center;
+	margin-top:-100px;
+	margin-bottom:50px;*/
+}
+
+.controls a {
+	display: block;
+}
+
+.controls .previous {
+	float: left;
+}
+
+.controls .next {
+	float: right;
+}
